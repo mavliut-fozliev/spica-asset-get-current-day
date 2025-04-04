@@ -10,5 +10,4 @@ triggers:
       method: Get
       path: /current-day
       preflight: true
-env: {}
 memoryLimit: 100
