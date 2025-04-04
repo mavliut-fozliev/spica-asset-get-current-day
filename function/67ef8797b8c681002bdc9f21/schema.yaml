@@ -1,0 +1,14 @@
+_id: 67ef8797b8c681002bdc9f21
+name: getCurrentDay
+language: javascript
+timeout: 12
+triggers:
+  default:
+    type: http
+    active: true
+    options:
+      method: Get
+      path: /current-day
+      preflight: true
+env: {}
+memoryLimit: 100
